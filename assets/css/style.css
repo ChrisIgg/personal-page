@@ -1,0 +1,149 @@
+* {
+  font-size: 16px;
+  line-height: 1in;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* colors
+#9aaoa8
+light grey
+#a7c4b5
+faded green/grey
+#a9d8b8
+average soft green
+#beffc7
+brighter green
+#72705b
+darker green/gold/grey muted background
+*/
+
+main {
+  background-color: #a7c4b5;
+}
+
+h1 {
+  display: flex;
+  font-size: 38px;
+  font-weight: bold;
+  position: relative;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  background-color: #a9d8b8;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px 5px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.section {
+  position: relative;
+  margin: 0 2%;
+  padding: 2%;
+  size: 200px;
+  display: flex;
+  text-align: justify;
+}
+
+#sectiontitle {
+  width: 140px;
+}
+
+ul#inline {
+  /* list-style: none; */
+  /* padding-top: 20%; */
+}
+
+ul#inline li {
+  /* display: inline; */
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  /* position: relative; */
+}
+
+#contact {
+}
+
+#banner {
+}
+
+#bannerimage {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 250px;
+  margin: auto;
+}
+
+#work {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 275px;
+}
+#work2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 275px;
+}
+
+main section article p {
+  line-height: 3.5em;
+}
+
+#about {
+  position: relative;
+  /* margin: 2%; */
+  /* padding: 2%; */
+  /* size: 200px; */
+  display: flex;
+  text-align: justify;
+}
+
+#abouttext {
+  padding: 48px 0px;
+}
+
+#headernavlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+#work {
+  /* padding-inline: 2em; */
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    flex-wrap: wrap;
+    justify-content: column;
+  }
+  #work2 {
+    justify-content: column;
+  }
+}
